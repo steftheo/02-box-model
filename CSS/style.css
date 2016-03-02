@@ -20,6 +20,7 @@
   display: inline-block;
   border: 0.5px black solid;
   vertical-align: baseline;
+  float: left;
 }
 
 
@@ -37,13 +38,11 @@
   vertical-align: baseline;
 }
 
-h4 {
-  text-align: right;
-
-  padding-left: 7rem;
-  padding-right: 1rem;
+p {
+  float: right;
 }
 
 .avatar {
   max-width: 10%;
+  float: right;
 }
