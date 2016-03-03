@@ -6,43 +6,39 @@
   box-sizing: inherit;
 }
 
-.item {
-  float: left;
-  display: inline-block;
-  margin-left: auto;
-  overflow: auto;
-  vertical-align: baseline;
+.container {
+  margin: auto;
 }
-.item_img {
+
+.column {
   max-width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
+  border-bottom: 1px black solid;
+  padding: 5px;
+
+}
+
+
+.item_img {
+  max-width: 100%;
   border: 0.5px black solid;
-  vertical-align: baseline;
-  float: left;
 }
 
 
 .info {
-  margin-left: auto;
-  margin-right: auto;;
-  display: inline;
-  padding: 10px;
-  float: right;
+  overflow: auto;
 }
 
 .number {
   float: left;
-  display: inline;
-  vertical-align: baseline;
 }
 
-p {
+
+.name {
   float: right;
 }
 
 .avatar {
-  max-width: 10%;
-  float: right;
+  max-width: 1em;
+  vertical-align: middle;
+  border-radius: 25%;
 }
