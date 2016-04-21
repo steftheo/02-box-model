@@ -6,20 +6,32 @@
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
 .container {
-  margin: auto;
+  margin: 0;
+  width: 100%;
 }
 
 .column {
-  max-width: 30%;
   border-bottom: 1px black solid;
-  padding: 5px;
+  padding: .5rem;
+  display: inline;
+  float: left;
+  overflow: auto;
+  width:33%;
 
 }
 
+.row {
+  display: block;
+  float: left;
+}
 
 .item_img {
-  max-width: 100%;
+  margin: auto;
+  width: 100%;
   border: 0.5px black solid;
 }
 
