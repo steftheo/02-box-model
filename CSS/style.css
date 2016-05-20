@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+* ::before, * ::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  margin: 0;
+  width: 100%;
+}
+
+.column {
+  border-bottom: 1px black solid;
+  padding: .5rem;
+  display: inline;
+  float: left;
+  overflow: auto;
+  width:33%;
+
+}
+
+.row {
+  display: block;
+  float: left;
+}
+
+.item_img {
+  margin: auto;
+  width: 100%;
+  border: 0.5px black solid;
+}
+
+
+.info {
+  overflow: auto;
+}
+
+.number {
+  float: left;
+}
+
+
+.name {
+  float: right;
+}
+
+.avatar {
+  max-width: 1em;
+  vertical-align: middle;
+  border-radius: 25%;
+}
